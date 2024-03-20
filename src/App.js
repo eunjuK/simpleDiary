@@ -1,7 +1,7 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import React, { useCallback, useMemo, useEffect, useRef, useReducer } from "react";
-import DiaryEditor from './DiaryEditor';
-import DiaryList from './DiaryList';
+import DiaryEditor from './simpleDiary/DiaryEditor';
+import DiaryList from './simpleDiary/DiaryList';
 import './App.css';
 
 // https://jsonplaceholder.typicode.com/comments

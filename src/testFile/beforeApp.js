@@ -1,7 +1,7 @@
 import { useCallback, useMemo, useEffect, useRef, useState } from "react";
 import './App.css';
-import DiaryEditor from './DiaryEditor';
-import DiaryList from './DiaryList';
+import DiaryEditor from '../simpleDiary/DiaryEditor';
+import DiaryList from '../simpleDiary/DiaryList';
 // import OptimizeTest from "./OptimizeTest";
 // import Lifecycle from "./Lifecycle";
 

@@ -1,5 +1,5 @@
 import React, { memo, useContext, useRef, useState } from "react";
-import { DiaryDispatchContext } from "./App";
+import { DiaryDispatchContext } from "../App";
 
 const DiaryItem = ({
   id,

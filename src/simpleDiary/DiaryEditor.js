@@ -1,5 +1,5 @@
 import React, { memo, useContext, useRef, useState } from "react";
-import { DiaryDispatchContext } from "./App";
+import { DiaryDispatchContext } from "../App";
 
 const DiaryEditor = () => {
 
@@ -45,7 +45,6 @@ const DiaryEditor = () => {
   return <article className="diaryEditor">
     <h2 className="subTitle">Today</h2>
 
-    {/* input */}
     <form action="" className="form">
       <div className="row">
         <label htmlFor="author" className="label">Author</label>
@@ -61,7 +60,6 @@ const DiaryEditor = () => {
           />
       </div>
 
-      {/* textarea */}
       <div className="row">
         <label htmlFor="content" className="label">Content</label>
         <textarea
@@ -76,7 +74,6 @@ const DiaryEditor = () => {
           ></textarea>
       </div>
 
-      {/* select */}
       <div className="row">
         <label htmlFor="emotion" className="label">Emotion</label>
         <select 
