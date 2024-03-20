@@ -60,8 +60,7 @@ const DiaryItem = ({
               onChange={(e) => setLocalContent(e.target.value)} />
           </>
         ) : (
-          <><p className="item_text">{ content }
-          </p></>
+          <><p className="item_text">{ content }</p></>
         )}
       </div>
       <div className="row">

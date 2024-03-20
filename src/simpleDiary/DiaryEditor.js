@@ -45,7 +45,7 @@ const DiaryEditor = () => {
   return <article className="diaryEditor">
     <h2 className="subTitle">Today</h2>
 
-    <form action="" className="form">
+    <div  className="form">
       <div className="row">
         <label htmlFor="author" className="label">Author</label>
         <input 
@@ -95,7 +95,7 @@ const DiaryEditor = () => {
         className="btn_save"
         onClick={ handleSubmit }
       >Save</button>
-    </form>
+    </div>
   </article>;
 };
 

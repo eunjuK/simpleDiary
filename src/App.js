@@ -97,7 +97,6 @@ function App() {
       const goodCount = data.filter((it) => it.emotion >= 3).length;
       const badCount = data.length - goodCount;
       const goodRatio = (goodCount / data.length) * 100;
-      // console.log( goodCount + ' / ' + badCount + ' / ' + goodRatio);
       return {goodCount, badCount, goodRatio};
     }, [data.length]
   );
@@ -117,7 +116,7 @@ function App() {
           <dt>Bad : </dt>
           <dd>{ badCount }</dd>
           <dt>Good Ratio : </dt>
-          <dd>{ goodRatio }</dd>
+          <dd>{ goodRatio }%</dd>
         </dl>
         <DiaryList />
       </DiaryDispatchContext.Provider>
